@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:backgroundTint="@android:color/holo_red_dark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.opencv_camera.opencv_camera.ExtendJavaCamera2View
+        android:id="@+id/opencv_gl_surface_view"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</FrameLayout>

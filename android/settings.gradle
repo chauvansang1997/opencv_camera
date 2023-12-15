@@ -1,0 +1,5 @@
+rootProject.name = 'opencv_camera'
+
+include ':opencvsdk480'
+//project(':opencvsdk480').projectDir = file("opencvsdk480/sdk")
+
